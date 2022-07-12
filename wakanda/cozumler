@@ -119,7 +119,7 @@ sshd:x:108:65534::/var/run/sshd:/usr/sbin/nologin
 devops:x:1001:1002:,,,:/home/devops:/bin/bash
 ______________________________________________________________________________________________________________________________________________
 After than you are going to find antivirus file. that file is similar crontabs... you will be changed this file so you are going to get reverse
-shell. when you are devops, you gonna try to be root.
+shell. when you are devops, you gonna try to be root. ( find / -user devops )
 ______________________________________________________________________________________________________________________________________________
 privilege escalation 
 TF=$(mktemp -d)
