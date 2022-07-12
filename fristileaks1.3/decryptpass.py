@@ -12,3 +12,6 @@ def decodeString(str):
 sonuc=decodeString(sys.argv[1])
 print(sonuc)
 
+# usage: 
+# python decryptpass.py mVGZ3O3omkJLmy2pcuTq
+# python decryptpass.py =RFn0AKnlMHMPIzpyuTI0ITG
